@@ -1,0 +1,21 @@
+{
+  "version": "1.2.0",
+  "runtime": {
+    "portable_mode": true,
+    "auto_backup_registry": true,
+    "verify_signatures": true,
+    "theme": "dark",
+    "log_level": "info"
+  },
+  "modules": {
+    "lifecycle_manager": {
+      "enabled": true,
+      "clean_temp_cache": true,
+      "preserve_user_profiles": true
+    },
+    "service_optimizer": {
+      "enabled": true,
+      "disable_telemetry_tasks": true
+    }
+  }
+}
